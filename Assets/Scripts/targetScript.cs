@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
+#endif
 
 public class targetScript : MonoBehaviour {
 
@@ -21,13 +23,15 @@ public class targetScript : MonoBehaviour {
 
 	IEnumerator RandomPosition (){
 		int nObs = Random.Range (1, 4);
-		Vector2[] positions = new Vector2[5];
+		//Vector2[] positions = new Vector2[5];
+		List<Vector2> positions = new List<Vector2> ();
 
 		for(int i=0; i<=nObs; i++){
 			int x = (int) Random.Range (-6, 6);
 			int y = (int) Random.Range (-3, 3);
 
-			while(ArrayUtility.Contains(positions, new Vector2(x, y))){
+			//while( ArrayUtility.Contains(positions, new Vector2(x, y))){
+			while(positions.Contains(new Vector2(x, y))){
 				x = (int) Random.Range (-6, 6);
 				y = (int) Random.Range (-3, 3);
 				yield return null;
@@ -35,16 +39,20 @@ public class targetScript : MonoBehaviour {
 				
 			if (i == nObs) {
 				Vector2 targetPosition = new Vector2 (x, y);
-				positions [i] = targetPosition;
+				//positions [i] = targetPosition;
+				positions.Add(targetPosition);
 				transform.position = targetPosition;
 				obsLista.Add (gameObject);
 			} else {
 				Vector2 obsPosition = new Vector2 (x, y);
-				positions [i] = obsPosition;
+				//positions [i] = obsPosition;
+				positions.Add(obsPosition);
 				GameObject tempObs =  Instantiate (obsPrefab, obsPosition, transform.rotation) as GameObject;
 				obsLista.Add (tempObs);
 			}
 		}
+
+		positions.Clear ();
 	}
 
 	public void ResetLevel(){
