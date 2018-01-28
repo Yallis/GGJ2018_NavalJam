@@ -78,7 +78,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb6743e365c5ee444b1c00697bd7eca7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound: {fileID: 8300000, guid: 01136f143b32d85459573fbf91034ed8, type: 3}
   obsPrefab: {fileID: 1525021141767140, guid: 1b6abbc397e9dbe49808d8a59f0b2dc8, type: 2}
   obsLista: []
 --- !u!212 &212135875010990868
@@ -95,7 +94,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 90ab85580de4b064bab10f4ba920e41d, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,8 +111,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -619805939
+  m_SortingLayer: 3
   m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: e1561a7a5ff4a694392886fe4b04bae8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

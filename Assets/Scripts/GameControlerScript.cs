@@ -10,11 +10,7 @@ public class GameControlerScript : MonoBehaviour {
 	//targetScript scriptTarget;
 
 	public static int pontos;
-	public static bool timeOut = false; // Variavle fim do tempo
-	public static bool pause = false;
-
 	public Text txtPotos;
-	public Text	txtTempo;
 
 	public int numeroNavios = 4;
 	public GameObject targetGO;
@@ -22,11 +18,6 @@ public class GameControlerScript : MonoBehaviour {
 	public List<GameObject> spawnPoints;
 
 	//public static List<GameObject> naviosLista = new List <GameObject> ();
-
-	float timeLevel = 60;
-	float currentTimeLevel;
-	float tempo;
-	float currentTempo;
 
 	int[] spawnPointsRandomList;
 	int spawnPointRandom;
@@ -41,9 +32,6 @@ public class GameControlerScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		currentSpawnRate = Time.time;
-		Time.timeScale = 1.0f;
-
-		currentTimeLevel = timeLevel;
 	}
 	
 	// Update is called once per frame
@@ -53,8 +41,9 @@ public class GameControlerScript : MonoBehaviour {
 			currentSpawnRate = Time.time + spawnRate;
 		}
 
+		txtPotos.text = GameControlerScript.pontos.ToString() + "/" + nObjetivo.ToString();
+
 		if(pontos == nObjetivo){
-			currentTimeLevel = timeLevel;
 			nLevel++;
 			nObjetivo = nLevel * 2 + 2;
 			pontos = 0;
@@ -62,22 +51,6 @@ public class GameControlerScript : MonoBehaviour {
 			targetScript scriptTarget = targetGO.GetComponent<targetScript> ();
 			scriptTarget.ResetLevel ();
 		}
-
-		if (currentTimeLevel == 0) {
-			//currentTimeLevel = timeLevel;
-			timeOut = true;
-		}
-		else if (Time.time > currentTempo + 1) {
-			currentTimeLevel--;
-			currentTempo = Time.time;
-		}
-
-		if(timeOut || pause){
-			Time.timeScale = 0.0f;
-		}
-
-		txtPotos.text = pontos.ToString() + "/" + nObjetivo.ToString();
-		txtTempo.text = currentTimeLevel.ToString ();
 	}
 
 	IEnumerator SetSpawn (){
