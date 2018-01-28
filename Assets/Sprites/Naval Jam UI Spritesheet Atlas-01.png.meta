@@ -1,9 +1,90 @@
 fileFormatVersion: 2
-guid: 2f9491e4ecc17144093e49f417bdb1b4
-timeCreated: 1517170221
+guid: faa881fd9d1215348917fed9ce23a7ba
+timeCreated: 1517154884
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Naval Jam UI Spritesheet Atlas-01_0
+    21300002: Naval Jam UI Spritesheet Atlas-01_1
+    21300004: Naval Jam UI Spritesheet Atlas-01_2
+    21300006: Naval Jam UI Spritesheet Atlas-01_3
+    21300008: Naval Jam UI Spritesheet Atlas-01_4
+    21300010: Naval Jam UI Spritesheet Atlas-01_5
+    21300012: Naval Jam UI Spritesheet Atlas-01_6
+    21300014: Naval Jam UI Spritesheet Atlas-01_7
+    21300016: Naval Jam UI Spritesheet Atlas-01_8
+    21300018: Naval Jam UI Spritesheet Atlas-01_9
+    21300020: Naval Jam UI Spritesheet Atlas-01_10
+    21300022: Naval Jam UI Spritesheet Atlas-01_11
+    21300024: Naval Jam UI Spritesheet Atlas-01_12
+    21300026: Naval Jam UI Spritesheet Atlas-01_13
+    21300028: Naval Jam UI Spritesheet Atlas-01_14
+    21300030: Naval Jam UI Spritesheet Atlas-01_15
+    21300032: Naval Jam UI Spritesheet Atlas-01_16
+    21300034: Naval Jam UI Spritesheet Atlas-01_17
+    21300036: Naval Jam UI Spritesheet Atlas-01_18
+    21300038: Naval Jam UI Spritesheet Atlas-01_19
+    21300040: Naval Jam UI Spritesheet Atlas-01_20
+    21300042: Naval Jam UI Spritesheet Atlas-01_21
+    21300044: Naval Jam UI Spritesheet Atlas-01_22
+    21300046: Naval Jam UI Spritesheet Atlas-01_23
+    21300048: Naval Jam UI Spritesheet Atlas-01_24
+    21300050: Naval Jam UI Spritesheet Atlas-01_25
+    21300052: Naval Jam UI Spritesheet Atlas-01_26
+    21300054: Naval Jam UI Spritesheet Atlas-01_27
+    21300056: Naval Jam UI Spritesheet Atlas-01_28
+    21300058: Naval Jam UI Spritesheet Atlas-01_29
+    21300060: Naval Jam UI Spritesheet Atlas-01_30
+    21300062: Naval Jam UI Spritesheet Atlas-01_31
+    21300064: Naval Jam UI Spritesheet Atlas-01_32
+    21300066: Naval Jam UI Spritesheet Atlas-01_33
+    21300068: Naval Jam UI Spritesheet Atlas-01_34
+    21300070: Naval Jam UI Spritesheet Atlas-01_35
+    21300072: Naval Jam UI Spritesheet Atlas-01_36
+    21300074: Naval Jam UI Spritesheet Atlas-01_37
+    21300076: Naval Jam UI Spritesheet Atlas-01_38
+    21300078: Naval Jam UI Spritesheet Atlas-01_39
+    21300080: Naval Jam UI Spritesheet Atlas-01_40
+    21300082: Naval Jam UI Spritesheet Atlas-01_41
+    21300084: Naval Jam UI Spritesheet Atlas-01_42
+    21300086: Naval Jam UI Spritesheet Atlas-01_43
+    21300088: Naval Jam UI Spritesheet Atlas-01_44
+    21300090: Naval Jam UI Spritesheet Atlas-01_45
+    21300092: Naval Jam UI Spritesheet Atlas-01_46
+    21300094: Naval Jam UI Spritesheet Atlas-01_47
+    21300096: Naval Jam UI Spritesheet Atlas-01_48
+    21300098: Naval Jam UI Spritesheet Atlas-01_49
+    21300100: Naval Jam UI Spritesheet Atlas-01_50
+    21300102: Naval Jam UI Spritesheet Atlas-01_51
+    21300104: Naval Jam UI Spritesheet Atlas-01_52
+    21300106: Naval Jam UI Spritesheet Atlas-01_53
+    21300108: Naval Jam UI Spritesheet Atlas-01_54
+    21300110: Naval Jam UI Spritesheet Atlas-01_55
+    21300112: Naval Jam UI Spritesheet Atlas-01_56
+    21300114: Naval Jam UI Spritesheet Atlas-01_57
+    21300116: Naval Jam UI Spritesheet Atlas-01_58
+    21300118: Naval Jam UI Spritesheet Atlas-01_59
+    21300120: Naval Jam UI Spritesheet Atlas-01_60
+    21300122: Naval Jam UI Spritesheet Atlas-01_61
+    21300124: Naval Jam UI Spritesheet Atlas-01_62
+    21300126: Naval Jam UI Spritesheet Atlas-01_63
+    21300128: Naval Jam UI Spritesheet Atlas-01_64
+    21300130: Naval Jam UI Spritesheet Atlas-01_65
+    21300132: Naval Jam UI Spritesheet Atlas-01_66
+    21300134: Naval Jam UI Spritesheet Atlas-01_67
+    21300136: Naval Jam UI Spritesheet Atlas-01_68
+    21300138: Naval Jam UI Spritesheet Atlas-01_69
+    21300140: Naval Jam UI Spritesheet Atlas-01_70
+    21300142: Naval Jam UI Spritesheet Atlas-01_71
+    21300144: Naval Jam UI Spritesheet Atlas-01_72
+    21300146: Naval Jam UI Spritesheet Atlas-01_73
+    21300148: Naval Jam UI Spritesheet Atlas-01_74
+    21300150: Naval Jam UI Spritesheet Atlas-01_75
+    21300152: Naval Jam UI Spritesheet Atlas-01_76
+    21300154: Naval Jam UI Spritesheet Atlas-01_77
+    21300156: Naval Jam UI Spritesheet Atlas-01_78
+    21300158: Naval Jam UI Spritesheet Atlas-01_79
+    21300160: Naval Jam UI Spritesheet Atlas-01_80
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -31,7 +112,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapU: 1
@@ -40,7 +121,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -60,7 +141,37 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -68,7 +179,1141 @@ TextureImporter:
     androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 260
+        width: 321
+        height: 181
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 230
+        width: 100
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 231
+        width: 152
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 235
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 235
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 235
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 235
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 235
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 235
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 235
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 235
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_11
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 235
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_12
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 235
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_13
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 235
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_14
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 206
+        width: 100
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 207
+        width: 134
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 211
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 211
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_18
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 211
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_19
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 211
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_20
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 211
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 211
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_22
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 211
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_23
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 211
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_24
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 211
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_25
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 211
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 166
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_27
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 166
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_28
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 166
+        width: 45
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 167
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_30
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 167
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_31
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 167
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_32
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 196
+        width: 27
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_33
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 195
+        width: 34
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 182
+        width: 28
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_35
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 182
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_36
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 166
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_37
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 165
+        width: 46
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_38
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 128
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_39
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 128
+        width: 46
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_40
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 128
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_41
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 124
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_42
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 124
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_43
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 124
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_44
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 124
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_45
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 124
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_46
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 100
+        width: 71
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_47
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 100
+        width: 71
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_48
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 86
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_49
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 86
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_50
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 86
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_51
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 86
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_52
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 86
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_53
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 78
+        width: 71
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_54
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 78
+        width: 71
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_55
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 46
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_56
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 46
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_57
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 46
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_58
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 46
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_59
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 46
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_60
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 58
+        width: 71
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_61
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 58
+        width: 71
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_62
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 38
+        width: 71
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_63
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 38
+        width: 71
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_64
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 9
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_65
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 9
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_66
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 9
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_67
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 9
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_68
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 9
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_69
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 21
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_70
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 23
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_71
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 21
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_72
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 23
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_73
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 23
+        width: 66
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_74
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_75
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 6
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_76
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 4
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_77
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 6
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_78
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 6
+        width: 45
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_79
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 134
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Naval Jam UI Spritesheet Atlas-01_80
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 21
+        width: 147
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
