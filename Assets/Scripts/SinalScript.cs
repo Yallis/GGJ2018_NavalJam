@@ -14,8 +14,12 @@ public class SinalScript : MonoBehaviour {
 		
 	}
 
-	void OnTriggerEnter2D(Collider2D col){
-		//if (col.tag == "Navio")
-		//	Destroy (gameObject);
+	/*void OnTriggerEnter2D(Collider2D col){
+		if (col.tag == "Navio")
+			Destroy (gameObject);
+	}*/
+
+	void OnBecameInvisible(){
+		Destroy (gameObject);
 	}
 }

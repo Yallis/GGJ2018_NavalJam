@@ -7,18 +7,30 @@ using UnityEditor;
 
 public class targetScript : MonoBehaviour {
 
-	public GameObject obsPrefab;
+	public AudioClip sound;
+	AudioSource source;
 
+	public GameObject obsPrefab;
 	public List<GameObject> obsLista;
 
 	// Use this for initialization
 	void Start () {
+		gameObject.AddComponent<AudioSource> ();
+		source = GetComponent<AudioSource> ();
+
+		source.clip = sound;
+		source.playOnAwake = false;
+
 		StartCoroutine (RandomPosition());
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		
+	}
+
+	void PlaySound(){
+		source.PlayOneShot (sound);
 	}
 
 	IEnumerator RandomPosition (){
@@ -69,6 +81,8 @@ public class targetScript : MonoBehaviour {
 
 	public void OnTriggerEnter2D (Collider2D col){
 		//Debug.Log ("Pontuacao +1");
-		GameControlerScript.pontos++;
+		PlaySound();
+		if(col.tag == "Navio")
+			GameControlerScript.pontos++;
 	}
 }
