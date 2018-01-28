@@ -45,7 +45,14 @@ public class GameControlerScript : MonoBehaviour {
 
 		currentTimeLevel = timeLevel;
 	}
-	
+
+	void Update (){
+		if (Input.GetKeyDown (KeyCode.Escape)) {
+			SceneManager.LoadScene ("mainTitle");
+			//Application.Quit ();
+		}
+	}
+
 	// Update is called once per frame
 	void FixedUpdate () {
 		if(Time.time > currentSpawnRate){

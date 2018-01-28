@@ -1,9 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-#if UNITY_EDITOR
-using UnityEditor;
-#endif
 
 public class targetScript : MonoBehaviour {
 
@@ -39,12 +36,12 @@ public class targetScript : MonoBehaviour {
 		List<Vector2> positions = new List<Vector2> ();
 
 		for(int i=0; i<=nObs; i++){
-			int x = (int) Random.Range (-6, 6);
+			int x = (int) Random.Range (-4, 5);
 			int y = (int) Random.Range (-3, 3);
 
 			//while( ArrayUtility.Contains(positions, new Vector2(x, y))){
 			while(positions.Contains(new Vector2(x, y))){
-				x = (int) Random.Range (-6, 6);
+				x = (int) Random.Range (-4, 5);
 				y = (int) Random.Range (-3, 3);
 				yield return null;
 			}

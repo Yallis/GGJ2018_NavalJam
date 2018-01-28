@@ -31,7 +31,7 @@ public class NaviosScript : MonoBehaviour {
 		Anime = GetComponent<Animator> ();
 		col = GetComponent<PolygonCollider2D> ();
 
-		//gameObject.AddComponent<AudioSource> ();
+		gameObject.AddComponent<AudioSource> ();
 		source = GetComponent<AudioSource> ();
 
 		source.clip = sound;
@@ -43,7 +43,7 @@ public class NaviosScript : MonoBehaviour {
 		//tipo = Random.Range(0, vels.Length);
 		//vel = vels[tipo];
 
-		tipoCor = Random.Range(1, 4);
+		tipoCor = Random.Range(1, 5);
 		Anime.SetInteger ("Cor", tipoCor-1);
 		//sr.color = cores [tipoCor-1];
 
