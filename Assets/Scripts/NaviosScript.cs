@@ -5,6 +5,8 @@ using UnityEngine;
 public class NaviosScript : MonoBehaviour {
 
 	public GameObject[] prefabs;
+	public AudioClip sound;
+	AudioSource source;
 
 	Vector2 dir;
 
@@ -16,17 +18,24 @@ public class NaviosScript : MonoBehaviour {
 	//int tipo;
 
 	//Color[] cores = { Color.red, Color.blue, Color.yellow, Color.green };
-	int tipoCor;
+	public int tipoCor;
+	bool explodiu = false;
 
 	Rigidbody2D rb;
-	SpriteRenderer sr;
 	Animator Anime;
+	Collider2D col;
 
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody2D> ();
-		sr = GetComponent<SpriteRenderer> ();
 		Anime = GetComponent<Animator> ();
+		col = GetComponent<PolygonCollider2D> ();
+
+		//gameObject.AddComponent<AudioSource> ();
+		source = GetComponent<AudioSource> ();
+
+		source.clip = sound;
+		source.playOnAwake = false;
 
 		ang = transform.eulerAngles.z;
 		angulo = ang;
@@ -43,17 +52,23 @@ public class NaviosScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-		angulo = Mathf.Lerp (angulo, ang, 0.05f);
-		//Debug.Log (angulo);
-		transform.rotation = Quaternion.Euler (0, 0, angulo);
-		dir = transform.rotation * Vector2.up;
-		if (Mathf.Round(angulo) == Mathf.Round(ang)) {
-			currentVel = vel;
+		if (!explodiu) {
+			angulo = Mathf.Lerp (angulo, ang, 0.05f);
+			//Debug.Log (angulo);
+			transform.rotation = Quaternion.Euler (0, 0, angulo);
+			dir = transform.rotation * Vector2.up;
+
+			if (Mathf.Round (angulo) == Mathf.Round (ang)) {
+				currentVel = vel;
+			} else
+				currentVel = vel * 0.75f;
+			//rb.velocity = new Vector2 (dir.x * currentVel, dir.y * currentVel);
+		} else {
+			Anime.SetBool ("Explodiu", explodiu);
+			col.enabled = false;
+			currentVel = 0;
 		}
-		else
-			currentVel = vel * 0.75f;
 		rb.velocity = new Vector2 (dir.x * currentVel, dir.y * currentVel);
-			
 	}
 
 
@@ -67,15 +82,37 @@ public class NaviosScript : MonoBehaviour {
 		}
 	}
 
+	void DestroiNavio (){
+		NaviosSpawnScript.naviosLista.Remove (gameObject);
+		PlaySound ();											// Som explosão
+		//Debug.Log (NaviosSpawnScript.naviosLista.Count);
+		Destroy (gameObject);
+	}
+
+	IEnumerator DestroiNavio (float t){
+		NaviosSpawnScript.naviosLista.Remove (gameObject);
+		PlaySound ();
+		//Debug.Log (NaviosSpawnScript.naviosLista.Count);
+		yield return new WaitForSeconds (t);
+		Destroy (gameObject);
+	}
+
+	void PlaySound(){
+		source.PlayOneShot (sound);
+	}
+
 	void OnTriggerEnter2D(Collider2D col){
 		//Debug.Log ("Barco destruido");
-		NaviosSpawnScript.naviosLista.Remove (gameObject);
-		Destroy (gameObject);
+		if (col.tag == "Target")
+			DestroiNavio ();
+		else if(col.tag != "Sinal"){
+			explodiu = true;
+			StartCoroutine (DestroiNavio (0.5f));
+		}
 	}
 
 	void OnBecameInvisible(){
 		//Debug.Log ("Barco destruido");
-		NaviosSpawnScript.naviosLista.Remove (gameObject);
-		Destroy (gameObject);
+		DestroiNavio ();
 	}
 }

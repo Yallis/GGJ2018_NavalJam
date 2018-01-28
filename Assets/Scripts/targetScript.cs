@@ -21,7 +21,7 @@ public class targetScript : MonoBehaviour {
 
 	IEnumerator RandomPosition (){
 		int nObs = Random.Range (1, 4);
-		Vector2[] positions = new Vector2[4];
+		Vector2[] positions = new Vector2[5];
 
 		for(int i=0; i<=nObs; i++){
 			int x = (int) Random.Range (-6, 6);
@@ -35,10 +35,12 @@ public class targetScript : MonoBehaviour {
 				
 			if (i == nObs) {
 				Vector2 targetPosition = new Vector2 (x, y);
+				positions [i] = targetPosition;
 				transform.position = targetPosition;
 				obsLista.Add (gameObject);
 			} else {
 				Vector2 obsPosition = new Vector2 (x, y);
+				positions [i] = obsPosition;
 				GameObject tempObs =  Instantiate (obsPrefab, obsPosition, transform.rotation) as GameObject;
 				obsLista.Add (tempObs);
 			}
