@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: faa881fd9d1215348917fed9ce23a7ba
-timeCreated: 1517154884
+timeCreated: 1517173792
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -397,147 +397,7 @@ TextureImporter:
         x: 114
         y: 207
         width: 134
-        height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Naval Jam UI Spritesheet Atlas-01_16
-      rect:
-        serializedVersion: 2
-        x: 131
-        y: 211
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Naval Jam UI Spritesheet Atlas-01_17
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 211
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Naval Jam UI Spritesheet Atlas-01_18
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 211
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Naval Jam UI Spritesheet Atlas-01_19
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 211
-        width: 5
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Naval Jam UI Spritesheet Atlas-01_20
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 211
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Naval Jam UI Spritesheet Atlas-01_21
-      rect:
-        serializedVersion: 2
-        x: 195
-        y: 211
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Naval Jam UI Spritesheet Atlas-01_22
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 211
-        width: 4
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Naval Jam UI Spritesheet Atlas-01_23
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 211
-        width: 5
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Naval Jam UI Spritesheet Atlas-01_24
-      rect:
-        serializedVersion: 2
-        x: 219
-        y: 211
-        width: 12
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Naval Jam UI Spritesheet Atlas-01_25
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 211
-        width: 12
-        height: 12
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1295,7 +1155,7 @@ TextureImporter:
         width: 134
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1309,7 +1169,7 @@ TextureImporter:
         width: 147
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

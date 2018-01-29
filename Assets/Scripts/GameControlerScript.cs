@@ -9,6 +9,8 @@ public class GameControlerScript : MonoBehaviour {
 	//NaviosScript scriptNavios;
 	//targetScript scriptTarget;
 
+	public GameObject objeto;
+
 	public static int pontos;
 	public static bool timeOut = false; // Variavle fim do tempo
 	public static bool pause = false;
@@ -23,7 +25,7 @@ public class GameControlerScript : MonoBehaviour {
 
 	//public static List<GameObject> naviosLista = new List <GameObject> ();
 
-	float timeLevel = 60;
+	float timeLevel = 90;
 	float currentTimeLevel;
 	float tempo;
 	float currentTempo;
@@ -44,6 +46,8 @@ public class GameControlerScript : MonoBehaviour {
 		Time.timeScale = 1.0f;
 
 		currentTimeLevel = timeLevel;
+
+		objeto.SetActive (false);
 	}
 
 	void Update (){
@@ -72,15 +76,15 @@ public class GameControlerScript : MonoBehaviour {
 
 		if (currentTimeLevel == 0) {
 			//currentTimeLevel = timeLevel;
+			objeto.SetActive (true);
+			if(!timeOut){
+				tempoScale ();
+			}
 			timeOut = true;
 		}
 		else if (Time.time > currentTempo + 1) {
 			currentTimeLevel--;
 			currentTempo = Time.time;
-		}
-
-		if(timeOut || pause){
-			Time.timeScale = 0.0f;
 		}
 
 		txtPotos.text = pontos.ToString() + "/" + nObjetivo.ToString();
@@ -133,4 +137,9 @@ public class GameControlerScript : MonoBehaviour {
 			spawnPoints [i].SetActive (false);
 		}
 	}
+
+	void tempoScale(){
+		Time.timeScale = 0.0f;
+	}
+
 }
